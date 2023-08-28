@@ -12,7 +12,7 @@ import pandas as pd
 
 # Importing the Model trained and its preproceessor to be used in the model
 model = load_model('Models/Churn-Model-ANN-1693242575')
-preprocessor = joblib.load("Pickle Files\dep_processor.jb")
+preprocessor = joblib.load("dep_processor.jb")
 
 # Creating Input Field to be unputted in the model
 
